@@ -1,0 +1,17 @@
+$primary: #00263A;
+$secondary: #0E4C87;
+$tertiary: #FEBE3F;
+$btn-padding-y: 1.125rem;
+
+
+:root{
+	body{
+		background-color: white;
+	}
+}
+[data-bs-theme=light] .btn-primary:hover {
+	--bs-btn-hover-bg: #244456;
+}
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
